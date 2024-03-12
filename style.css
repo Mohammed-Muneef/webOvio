@@ -95,7 +95,7 @@
     padding-right: 20px;
     padding-top: 120px;
     height: 60vh;
-    width: 458px;
+    width: 420px;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 
 }
@@ -152,6 +152,7 @@
 .project1SideBar{
     padding-right: 20px;
     padding-left: 8%;
+    margin-left: 25px;
     max-width: 475px;
     width: 50%;
 }
@@ -176,7 +177,89 @@
     max-width: 475px;
     width: 50%;
 }
+
+.servicesDiv{
+    font-family:"Poppins", sans-serif ;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    /* max-width: 1110px; */
+    width: 100%;
+    padding-top: 100px ;
+    /* padding-right: 0.75rem;
+    padding-left: 0.75rem; */
+}
+
+.servicesH2{
+    max-width: 520px;
+    width: 100%;
+    line-height: 1.5 !important;
+    padding-left: 12rem !important;
+    margin-bottom: 3rem !important;
+    font-size: 29px;
+    font-weight:500;
+
+}
+
+.servicesUl{
+    display: flex;
+    padding-right: 12rem ! important;
+    padding-left: 12rem ! important;
+    list-style-type: none;
+}
+
+.servicesLi{
+    justify-content: space-between;
+    padding: 20px 20px 20px 0;
+    flex-direction: column;
+    margin-bottom: 70px;
+    font-weight: 500;
+    display: flex;
+}
+
+.liDiv1{
+    text-transform: uppercase !important;
+    font-size: calc(1.275rem + .3vw) !important;
+    margin-bottom: 1rem !important;
+}
+
+.liDiv2{
+    line-height: 2 !important;
+    margin-bottom: 3rem !important;
+    opacity: .75 !important;
+}
     
+.readMore{
+    opacity: 0.7;
+    font-weight: 700 !important;
+    font-size: 1.25rem !important;
+    color: #6c757d;
+}
 
+.getStarted{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    background-color: #fafafa;
+    padding-bottom: 65px;
+    padding-left: 55px;
+    position: relative;
+    margin-top: 100px;
+    max-width: 1275px;
+    left: 0;
+}
 
+.getStartedH1{
+    font-family: "Poppins", sans-serif;
+    line-height: 74px;
+    font-weight: 700;
+    max-width: 822px;
+    font-size: 60px;
+    margin: 0.67em 0;
+}
+footer{
+    font-family: "Poppins", sans-serif;
+    background-image: url(images/FooterBGR.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 235px;
+    margin-top: -160px;
+}
 
