@@ -3,8 +3,19 @@
 * {
   padding: 0;
   margin: 0;
+  /* box-sizing: border-box; */
 }
 
+#logo{
+  margin-left: 175px;
+}
+
+#toggleButton{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 175px;
+}
 .navBar {
   position: relative;
 }
@@ -88,6 +99,7 @@
   /* height: 348px;
     width: 485px ; */
   /* width: 120vw; */
+  margin-left: 120px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 120px;
@@ -166,7 +178,7 @@
 
 .project1SideBar {
   padding-right: 8%;
-  padding-left: 20px;
+  padding-left: 80px;
   max-width: 475px;
   width: 50%;
 }
@@ -202,7 +214,7 @@
   justify-content: space-between;
   padding: 20px 20px 20px 0;
   flex-direction: column;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
   font-weight: 500;
   display: flex;
 }
@@ -224,6 +236,7 @@
   font-weight: 700 !important;
   font-size: 1.25rem !important;
   color: #6c757d;
+
 }
 
 .getStarted {
@@ -300,4 +313,27 @@ footer {
     text-decoration: none;
     line-height: 40px;
     color: #b6c197;
+}
+
+@media only screen and (max-width: 1140px) {
+  #logo {
+    /* background-color: lightblue; */
+    margin-left: 2rem;
+  }
+  #toggleButton {
+/* background-color: blue; */
+margin-right: 2rem;
+  }
+
+  .banner{
+    padding-left: 2rem;
+  }
+}
+
+.paddingDiv{
+  /* padding: 20px; */
+  /* padding-right: 20px; */
+  padding-left: 20px;
+  margin-right: 50px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
