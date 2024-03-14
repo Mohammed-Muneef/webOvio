@@ -177,6 +177,7 @@
 }
 
 .project1SideBar {
+  padding-top: 70px;
   padding-right: 8%;
   padding-left: 80px;
   max-width: 475px;
@@ -315,7 +316,7 @@ footer {
     color: #b6c197;
 }
 
-@media only screen and (max-width: 1140px) {
+@media only screen and (max-width: 1149px) {
   #logo {
     /* background-color: lightblue; */
     margin-left: 2rem;
