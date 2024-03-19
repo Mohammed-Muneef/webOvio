@@ -5,6 +5,25 @@
   margin: 0;
   /* box-sizing: border-box; */
 }
+.bottomDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.founderH2{
+  line-height: 1.5 !important;
+              padding-top: 1rem !important;
+              padding-bottom: 1rem !important;
+}
+.footerDiv2{
+  display: flex; 
+  justify-content: space-around;
+}
+.phoneNo{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 6.6%;}
 
 #logo{
   margin-left: 175px;
@@ -31,7 +50,7 @@
 
 .subtitle {
   line-height: 26px;
-  width: 600px;
+  max-width: 600px;
 }
 
 .title {
@@ -39,7 +58,7 @@
   font-weight: 700;
   font-size: 60px;
   margin: 40.2px 0;
-  width: 600px;
+  max-width: 600px;
 }
 
 .banner {
@@ -52,6 +71,7 @@
   font-family: "Poppins", sans-serif;
   background-size: cover;
   color: #eee;
+  /* width: 100%; */
 }
 
 .bannerDiv1 {
@@ -61,6 +81,7 @@
 
 .partners {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #fafafa;
   position: absolute;
@@ -88,6 +109,7 @@
 }
 
 .founderDiv1 {
+  width: 100%;
   padding-top: 20px;
   /* height: 348px;
     width: 485px ; */
@@ -102,9 +124,9 @@
   margin-left: 120px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 120px;
-  height: 60vh;
-  width: 420px;
+  padding-top: 211px;
+  /* height: 60vh; */
+  max-width: 420px;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
@@ -187,9 +209,10 @@
 .servicesDiv {
   font-family: "Poppins", sans-serif;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  /* max-width: 1110px; */
+  max-width: 1110px;
   width: 100%;
   padding-top: 100px;
+  margin: auto;
   /* padding-right: 0.75rem;
     padding-left: 0.75rem; */
 }
@@ -198,7 +221,8 @@
   max-width: 520px;
   width: 100%;
   line-height: 1.5 !important;
-  padding-left: 12rem !important;
+  /* padding-left: 12rem !important; */
+  margin: auto;
   margin-bottom: 3rem !important;
   font-size: 29px;
   font-weight: 500;
@@ -206,8 +230,9 @@
 
 .servicesUl {
   display: flex;
-  padding-right: 12rem !important;
-  padding-left: 12rem !important;
+  /* padding-right: 12rem !important;
+  padding-left: 12rem !important; */
+  margin: auto;
   list-style-type: none;
 }
 
@@ -315,11 +340,29 @@ footer {
     line-height: 40px;
     color: #b6c197;
 }
+.paddingDiv{
+  /* padding: 20px; */
+  /* padding-right: 20px; */
+  padding-left: 20px;
+  margin-right: 50px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
 
 @media only screen and (max-width: 1149px) {
   #logo {
     /* background-color: lightblue; */
     margin-left: 2rem;
+  }
+
+  .footerDiv2{
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+  .servicesLi{
+    padding: 20px;
   }
   #toggleButton {
 /* background-color: blue; */
@@ -329,6 +372,52 @@ margin-right: 2rem;
   .banner{
     padding-left: 2rem;
   }
+  .project1SideBar {
+    padding-top: 70px;
+    /* padding-right: 8%;
+    padding-left: 80px; */
+    margin: auto;
+    max-width: 475px;
+    width: 50%;
+  }
+  .project2SideBar {
+    padding-top: 70px;
+    /* padding-right: 8%;
+    padding-left: 80px; */
+    margin: auto;
+    max-width: 475px;
+    width: 50%;
+  }
+
+  .project1Ceo{
+    position: static;
+    /* margin-top: 0;
+    margin-left: 0; */
+    margin: auto;
+    max-width: 371px;
+    
+  }
+  .project2Ceo{
+    position: static;
+    /* margin-top: 0;
+    margin-right: 0; */
+    margin: auto;
+    max-width: 371px;
+  }
+  .founderDiv1 {
+    padding-top: 85px;
+    /* width: 120vw; */
+    max-width: 550px;
+    width: 100%;
+  }
+
+  
+  .servicesUl {
+    display: flex;
+    /* flex-direction: column; */
+    
+    margin: auto;
+    list-style-type: none;
 }
 
 .paddingDiv{
@@ -337,4 +426,120 @@ margin-right: 2rem;
   padding-left: 20px;
   margin-right: 50px;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+/* .phoneNo{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  } */
+}
+
+@media only screen and (max-width: 768px) {
+.project1Ceo{
+  position: static;
+  /* margin-top: 0;
+  margin-left: 0; */
+  margin: auto;
+  /* max-width: 367px; */
+}
+
+.project1{
+  display: block;
+}
+
+.project1SideBar{
+  padding-top: 10px;
+    /* padding-right: 0px;
+    padding-left: 0px; */
+    margin: auto;
+    max-width: 475px;
+    width: 50%;
+}
+
+.getInTouch{
+  padding-top: 20px;
+}
+}
+
+@media only screen and (max-width:650px){
+  .founderDiv{
+    display: block;
+    height: 820px;
+  }
+
+  .founderDiv2{
+    padding-top: 0;
+    margin: auto;
+  }
+  .founderH2{
+    padding-top: 6rem! important
+  }
+
+  .servicesUl{
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (max-width:550px){
+  .founderDiv{
+    height: 1000px;
+  }
+  .founderH2{
+    padding-top: 13rem! important
+  }
+
+  .bottomDiv{
+  
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+}
+
+@media only screen and (max-width:420px){
+  .banner{
+    padding-top: 80px;
+  }
+  .title{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .founderDiv{
+    height: 1200px;
+  }
+
+  .project1Ceo{
+    max-width: 330px;
+  }
+
+  .project2Ceo{
+    max-width: 330px;
+  }
+
+  .getStartedH1{
+    font-size: 30px;
+    line-height: 40px;
+  margin: auto;
+  }
+
+  .phoneNo{
+    flex-direction: column;
+  }
+
+  #address{
+    margin-top: 10px! important;
+  }
+
+  footer{
+    padding-top: 0px! important;
+  }
+
+  .project1SideBar{
+    padding-left: 0px;
+  }
+
+  .projects{
+    padding-top: 10px;
+  }
 }
