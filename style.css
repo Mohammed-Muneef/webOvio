@@ -135,6 +135,7 @@
 }
 
 .projectsDiv {
+  padding: 10px;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: space-around;
@@ -143,6 +144,7 @@
 }
 
 .projectsH21 {
+  padding: 10px;
   font-size: 30px;
   max-width: 300px;
   height: 88px;
@@ -292,8 +294,9 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 235px;
+  padding-top: 235px! important;
   margin-top: -160px;
+  padding: 1rem;
 }
 
 .content {
@@ -435,6 +438,10 @@ margin-right: 2rem;
 }
 
 @media only screen and (max-width: 768px) {
+
+  .projectH21{
+    
+  }
 .project1Ceo{
   position: static;
   /* margin-top: 0;
@@ -494,10 +501,19 @@ margin-right: 2rem;
     justify-content: space-between;
     flex-direction: column;
   }
+
+  #logoDiv{
   
+    margin: auto! important;
+  }
+  #copyRight{
+    margin: auto! important;
+  }
 }
 
 @media only screen and (max-width:420px){
+
+ 
   .banner{
     padding-top: 80px;
   }
